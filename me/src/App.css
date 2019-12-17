@@ -37,8 +37,12 @@
   }
 }
 
+* {
+	background-color: #161748;
+	margin-left: 10px;
+}
+
 .TypistWelcome {
-	&-main {
-		font-size:100em;
-	}
+	margin-top: 2.5%;
+	color: #ffffff;
 }
