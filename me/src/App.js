@@ -8,9 +8,8 @@ function App() {
 		<React.Fragment>
 			<div className = 'TypistWelcome'>
 				<Typist cursor = {{ hideWhenDone: true }}>
-					<h2>Hi, I'm John.</h2>
-					<p>I'm a full stack engineer based in Boston.</p>
-					<p>Check out my experience and projects below...</p>
+					<h1>Hi, I'm John.</h1>
+					<strong>I'm a full stack engineer based in Boston.</strong>
 				</Typist>
 			</div>
 		</React.Fragment>
