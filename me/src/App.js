@@ -1,6 +1,6 @@
 import React from 'react';
 import Typist from 'react-typist';
-import '/home/galimijohn/me/me/node_modules/react-typist/dist/Typist.css';
+import '../node_modules/react-typist/dist/Typist.css';
 import './App.css'
 
 function App() {
@@ -8,8 +8,8 @@ function App() {
 		<React.Fragment>
 			<div className = 'TypistWelcome'>
 				<Typist cursor = {{ hideWhenDone: true }}>
-					<h1>Hi, I'm John.</h1>
-					<strong>I'm a full stack engineer based in Boston.</strong>
+					<h1>Hi, I'm John</h1>
+					<strong>I'm a full stack engineer based in Boston</strong>
 				</Typist>
 			</div>
 		</React.Fragment>
